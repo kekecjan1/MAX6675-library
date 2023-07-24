@@ -19,7 +19,7 @@ The CS signal must be an output initially as high.
 ![GPIO_blocking](https://github.com/kekecjan1/MAX6675-library/assets/21065314/a56b1d30-8394-482f-b88d-f7dd142f86bb)
 
 ## ( NOTE ) conversion timer in blocking mode (polling):
-After each temperature conversion use 'HAL_Delay(Delay)' function where Delay is between 170 ms and 220 ms (conversion time) !
+After each temperature conversion use `HAL_Delay(Delay)` function where Delay is between 170 ms and 220 ms (conversion time) !
 
 ## SPI configuration for none-blocking mode (interrupt):
 
@@ -36,7 +36,7 @@ Due to the conversion time of the MAX6675 thermocouple sensor, which typically r
 
 Note : In my example code i set the timer2 interrupt occurrence every 200 ms.
 
-$ n=T\bullet2\bullet\frac{f_{CLK}}{prescaler}=0.2\bullet2\bullet\frac{50\ MHz}{5000}=4000 $
+$\` n=T\bullet2\bullet\frac{f_{CLK}}{prescaler}=0.2\bullet2\bullet\frac{50\ MHz}{5000}=4000 \`$
 
 
 
