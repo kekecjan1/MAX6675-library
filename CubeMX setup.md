@@ -1,6 +1,6 @@
 ## CubeMX setup
 
-This guide will walk you through the steps to set up the MAX6675 thermocouple temperature sensor using CubeMX for an STM32 microcontroller. The MAX6675 communicates over SPI, so we'll configure the SPI peripheral and the necessary GPIOs.
+This guide will walk you through the steps to set up the MAX6675 thermocouple temperature sensor using CubeMX for an STM32 microcontroller. The MAX6675 communicates over blocking and none-blocking SPI , so we'll configure the SPI peripheral, the necessary GPIOs and timer for interrupt.
 
 # Clock configuration
 
