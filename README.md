@@ -42,7 +42,7 @@ To read temperature data from the MAX6675, follow these steps:
 
 
 
-# Features
+## Features
 
 - Read temperature in degrees Celsius from the MAX6675 sensor
 - Supports both blocking and none-blocking temperature readings
