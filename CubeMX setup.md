@@ -36,7 +36,8 @@ Due to the conversion time of the MAX6675 thermocouple sensor, which typically r
 
 Note : In my example code i set the timer2 interrupt occurrence every 200 ms.
 
-$\` n=T\bullet2\bullet\frac{f_{CLK}}{prescaler}=0.2\bullet2\bullet\frac{50\ MHz}{5000}=4000 \`$
+$` n_{counter}=T\bullet2\bullet\frac{f_{CLK}}{prescaler}=0.2\bullet2\bullet\frac{50\ MHz}{5000}=4000 `$
+
 
 
 
