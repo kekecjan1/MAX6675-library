@@ -2,7 +2,7 @@
 
 This library provides functions to interface with the MAX6675 thermocouple temperature sensor on STM32Fx microcontrollers.
 It allows users to read temperature data from the MAX6675 sensor using SPI communication.
-The library supports both blocking and none-blocking modes for temperature readings, making it versatile for different application scenarios.
+The library supports both blocking and non-blocking modes for temperature readings, making it versatile for different application scenarios.
 
 ## Tested Platform
 
@@ -45,7 +45,7 @@ To read temperature data from the MAX6675, follow these steps:
 ## Features
 
 - Read temperature in degrees Celsius from the MAX6675 sensor
-- Supports both blocking and none-blocking temperature readings
+- Supports both blocking and non-blocking temperature readings
 - Lightweight and optimized for STM32Fx microcontrollers
 
 ## Usage
