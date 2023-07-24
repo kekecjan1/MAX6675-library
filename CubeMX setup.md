@@ -6,6 +6,8 @@ This guide will walk you through the steps to set up the MAX6675 thermocouple te
 
 ![clockConfig](https://github.com/kekecjan1/MAX6675-library/assets/21065314/d745f408-abce-45d3-8ba7-af9a5732447d)
 
+
+
 ## SPI configuration for blocking mode (polling) :
 
 Note: The MAX6675 thermocouple sensor has a maximum SPI clock speed of 4.3 MHz. When setting the prescaler, ensure that the SPI clock frequency does not exceed this maximum value. Adjust the prescaler appropriately to achieve a baud rate for reliable communication. 
